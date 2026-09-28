@@ -1,7 +1,5 @@
 """Modul sederhana untuk melakukan operasi penjumlahan dua angka."""
 
-
-
 def tambah_dua_angka(angka_pertama, angka_kedua):
     """Menghitung dan menampilkan hasil penjumlahan dua angka.
 
@@ -16,7 +14,5 @@ def tambah_dua_angka(angka_pertama, angka_kedua):
     print(hasil)
     return hasil
 
-
 if __name__ == "__main__":
     tambah_dua_angka(1, 2)
-    
