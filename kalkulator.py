@@ -16,7 +16,6 @@ def main():
     """Fungsi utama program."""
     hasil = hitung_luas_persegi_panjang(5, 3)
     print(f"Luas persegi panjang: {hasil}")
-
+    
 if __name__ == "__main__":
     main()
-
