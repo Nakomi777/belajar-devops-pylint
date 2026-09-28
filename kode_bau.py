@@ -1,15 +1,15 @@
-import os, sys, math
+"""Module to process basic list calculations according to PEP 8 standards."""
 
-x = 10
 
-def Bad_Function_Name( A, B, C, D, E, F ):
- global x
- l = 1; O = 0
- if A == True:
-  if B == False:
-   if C == None:
-    try: print(eval("A + B")); res = E[0] + F + l + O
-    except: pass
- else: return None
+def process_data(is_active, is_disabled, target_value, values, extra_offset):
+    """Process input conditions and return calculated sum from list values."""
+    if is_active and not is_disabled and target_value is None:
+        first_item = values[0]
+        base_offset = 1
+        return first_item + extra_offset + base_offset
 
-Bad_Function_Name(True, False, None, 1, [2], 3)
+    return None
+
+
+if __name__ == "__main__":
+    process_data(True, False, None, [2], 3)
