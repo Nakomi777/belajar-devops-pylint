@@ -1,6 +1,7 @@
 """Module for processing sample data according to PEP 8 standard."""
 
 
+
 def process_data(is_active, is_disabled, target_value, values, extra_offset):
     """Process input conditions and return calculated sum from list values."""
     if is_active and not is_disabled and target_value is None:
@@ -13,3 +14,4 @@ def process_data(is_active, is_disabled, target_value, values, extra_offset):
 
 if __name__ == "__main__":
     process_data(True, False, None, [2], 3)
+    
