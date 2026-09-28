@@ -1,4 +1,4 @@
-"""Module to process basic list calculations according to PEP 8 standards."""
+"""Module for processing sample data according to PEP 8 standard."""
 
 
 def process_data(is_active, is_disabled, target_value, values, extra_offset):
